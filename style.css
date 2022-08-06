@@ -7,19 +7,32 @@
 
 }
 
-.Book{
+.cardContainer{
     background-color: rgb(180, 180, 214);
-    height: 200px;
+    height: 230px;
     width: 300px;
-    font-size: 32px;
+    font-size: 35px;
     padding:20px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    white-space: pre-line;
+    gap: 5px;
+    
 
 
    
+}
+
+.readStatus{
+    height: 30px;
+    width: 80px;
+    font-size: 20px;  
+}
+
+.deleteBtn{
+    height: 30px;
+    width: 80px;
+    font-size: 20px;    
 }
 
 body{
@@ -36,3 +49,14 @@ button{
     font-weight: bold;
     border-radius: 20px;
 }
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap:10px;
+    align-items: flex-start;
+    
+}
+
